@@ -16,13 +16,10 @@
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
-
-    <link rel="stylesheet" href="./css/bootstrap.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="./css/font-awesome.css" />
-    <link rel="stylesheet" href="./css/et-line-min.css" />
-    
-
+   <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
+   <link rel="stylesheet" type="text/css" href="./css/et-line-min.css" />
     
 
     <title>Mike, Atlanta's finest website developer</title>
@@ -32,17 +29,19 @@
     <!-- Analytics END -->
   </head>
   <body>
+    <a class="skip-link" href="#bloc-1-hero" >Skip to main</a>
     <!-- Main container -->
     <div class="page-container">
       <!-- bloc-0 -->
-      <div class="bloc bgc-white l-bloc" id="bloc-0">
+      <header class="bloc bgc-white l-bloc" id="bloc-0">
         <div class="container bloc-sm">
           <nav class="navbar row">
             <div class="navbar-header">
               <a class="navbar-brand" href="index.html"
                 ><img
-                  src="img/atlanta%20web%20design%20logo.png"
+                  src="img/atlanta-web-design-logo.png"
                   alt="logo, seo, google, website, internet, web design, design agency"
+                  width="214.44"
                   height="40"
               /></a>
 
@@ -71,7 +70,7 @@
             </div>
           </nav>
         </div>
-      </div>
+      </header>
       <!-- bloc-0 END -->
 
       <!-- bloc-1-hero -->
@@ -87,14 +86,17 @@
           b-parallax
         "
         id="bloc-1-hero"
+        width="360"
+        height="336.52"
       >
         <div class="container bloc-lg">
           <div class="row tight-width-whitespace">
             <div class="col-sm-12">
               <img
-                src="img/atlanta%20web%20designer%20mike.png"
+                src="img/atlanta-web-designer-mike.png"
                 class="center-block image-resize-mode"
                 width="100"
+                height="102.53"
                 alt="atlanta web designer mike,seo, google, website, internet, web design, design agency"
               />
               <h2 class="text-center hero-bloc-text tc-white">I'm Mike.</h2>
@@ -266,10 +268,14 @@
                 data-gallery-id="gallery-1"
                 data-caption="Website for Atlanta's Premiere dog salon"
                 data-frame="snapshot-lb"
+                width="330"
+                height="330"
                 ><img
                   src="img/11.jpg"
                   class="img-responsive portfolio-thumb"
                   alt="seo, google, website, internet, web design, design agency website for dog salon"
+                  width="330"
+                  height="330"
               /></a>
               <h3 class="mg-md text-center">
                 Website for Atlanta&rsquo;s premiere Dog Sitters
@@ -290,6 +296,8 @@
                   src="img/2.jpg"
                   class="img-responsive portfolio-thumb"
                   alt="seo, google, website, internet, web design, design agency website for best cupcakes in atlanta"
+                  width="330"
+                  height="330"
               /></a>
               <h3 class="mg-md text-center">
                 Web redesign for the best Atlanta&nbsp;cupcakes
@@ -312,6 +320,8 @@
                   src="img/3.png"
                   class="img-responsive portfolio-thumb"
                   alt="3.jpg"
+                  width="330"
+                  height="330"
               /></a>
               <h3 class="mg-md text-center">
                 New logo and website for Atl + Gear - Atlanta&rsquo;s best tech
@@ -333,6 +343,8 @@
                   src="img/4.jpg"
                   class="img-responsive portfolio-thumb"
                   alt="seo, google, website, internet, web design, Atlanta's legal website generates 30% more clients after web redesign"
+                  width="330"
+                  height="330"
               /></a>
               <h3 class="mg-md text-center">
                 Atlanta&rsquo;s legal new website - Generating 30% more law
@@ -391,37 +403,34 @@
               <div class="row row-no-gutters social">
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                      ><span class="fa fa-twitter icon-md"></span
-                    ></a>
+                    <a class="social social-twitter" href="index.html">
+                     <span class="fa fa-twitter icon-md"></span>
+            
+                    </a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a class="social social-facebook" href="index.html"
                       ><span class="fa fa-facebook icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a class="social social-dribble" href="index.html"
                       ><span class="fa fa-dribbble icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a class="social social-instagram" href="index.html"
                       ><span class="fa fa-instagram icon-md"></span
                     ></a>
                   </div>
                 </div>
 
-                <div class="keywords" style="color: #364577">
-                  web agency atlanta, web strategy, web design, logo, website,
-                  web, internet, logo design
-                </div>
               </div>
               <!-- <div class="row">
                 <div class="col-sm-4">
@@ -483,10 +492,11 @@
       <!-- Footer - bloc-8 END -->
     </div>
     <!-- Main container END -->
-	<script src="./js/jquery-2.1.0.js"></script>
+   
+    <script src="./js/jquery-2.1.0.min.js"></script>
     <script src="./js/bootstrap-min.js"></script>
     <script src="./js/blocs.js"></script>
     <script src="./js/jquery.touchSwipe.js"></script>
-    <script src="./js/gmaps.js"></script>
+    <script src="./js/gmaps.js"></script> 
   </body>
 </html>
