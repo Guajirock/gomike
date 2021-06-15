@@ -15,21 +15,33 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
+    <link rel="preload" as="image" href="img/atlanta-made-sign.jpg" />
+    <link rel="preload" as="image" href="img/texture-paper.png" />
+    <link rel="preload" as="image" href="img/atlanta-made-sign-orange.jpg" />
+
+    <link rel="preload" href="./../fonts/fontawesome-webfont.woff" as="font" type="font/woff" crossorigin>
+      <link rel="preload" href="./../fonts/fontawesome-webfont.woff2" as="font" type="font/woff2" crossorigin>
+      <link rel="preload" href="./../fonts/fontawesome-webfont.ttf" as="font" type="font/ttf" crossorigin>
+   
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
-   <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   <!--<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
    <link rel="stylesheet" type="text/css" href="./css/et-line-min.css" />
+
     
 
     <title>Mike, Atlanta's finest website developer</title>
 
     <!-- Analytics -->
-
+  
     <!-- Analytics END -->
   </head>
   <body>
     <a class="skip-link" href="#bloc-1-hero" >Skip to main</a>
+    <a class="skip-link" href="#bloc-2-services" >Services</a>
+    <a class="skip-link" href="#bbloc-3-what-i-do" >what I do</a>
     <!-- Main container -->
     <div class="page-container">
       <!-- bloc-0 -->
@@ -86,8 +98,6 @@
           b-parallax
         "
         id="bloc-1-hero"
-        width="360"
-        height="336.52"
       >
         <div class="container bloc-lg">
           <div class="row tight-width-whitespace">
@@ -97,7 +107,7 @@
                 class="center-block image-resize-mode"
                 width="100"
                 height="102.53"
-                alt="atlanta web designer mike,seo, google, website, internet, web design, design agency"
+                alt="atlanta-web-designer-mike,seo, google, website, internet, web design, design agency"
               />
               <h2 class="text-center hero-bloc-text tc-white">I'm Mike.</h2>
               <div class="text-center">
@@ -123,7 +133,7 @@
         <div class="container bloc-md">
           <div class="row">
             <div class="col-sm-12 text-center">
-				<p>I create websites and design that help<br/>Atlanta companies become more attractive and recognizable online</p>
+				<p>I create websites and design graphics that help<br/>Atlanta companies become more attractive and recognizable online.</p>
              <!--x <img
                 alt="web agency, web design, logo design, atlanta agency, mike"
                 src="img/title.png"
@@ -493,10 +503,11 @@
     </div>
     <!-- Main container END -->
    
-    <script src="./js/jquery-2.1.0.min.js"></script>
-    <script src="./js/bootstrap-min.js"></script>
+  <script src="./js/jquery-2.1.0.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <!-- <script src="./js/bootstrap-min.js"></script>
     <script src="./js/blocs.js"></script>
     <script src="./js/jquery.touchSwipe.js"></script>
-    <script src="./js/gmaps.js"></script> 
+    <script src="./js/gmaps.js"></script> -->
   </body>
 </html>

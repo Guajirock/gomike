@@ -801,13 +801,13 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
-}
+}   
 
 .ltc-white {
     color: #FFFFFF!important;
@@ -818,7 +818,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: blue!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -1002,6 +1002,7 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+
     }
     .bloc-sm,
     .bloc-md {
@@ -1053,6 +1054,10 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    #bloc-1-hero {
+        width: 360px;
+        height: 336px;
     }
 }
 
